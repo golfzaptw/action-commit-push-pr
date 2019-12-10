@@ -17,6 +17,8 @@ jobs:
         env:
           LOCALIZER_CREDENTIAL_TOKEN: ${{ secrets.LOCALIZER_CREDENTIAL_TOKEN }}
           LOCALIZER_REFRESH_TOKEN: ${{ secrets.LOCALIZER_REFRESH_TOKEN }}
+      - name: Prettier
+        run: yarn && yarn prettier
       - name: Start action
         uses: ./
         with:
