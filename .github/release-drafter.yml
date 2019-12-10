@@ -14,6 +14,8 @@ categories:
     labels:
       - 'chore: documentation'
       - 'chore: dependencies'
+exclude-labels:
+  - 'skip-changelog'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
   ## Changes
