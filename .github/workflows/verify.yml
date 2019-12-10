@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v1
       - name: Localizer
         uses: 20Scoops-CNX/action-localizer@master
+        with:
+          LOCALIZER_FILE: .github/localizer.js
         env:
           LOCALIZER_CREDENTIAL_TOKEN: ${{ secrets.LOCALIZER_CREDENTIAL_TOKEN }}
           LOCALIZER_REFRESH_TOKEN: ${{ secrets.LOCALIZER_REFRESH_TOKEN }}
