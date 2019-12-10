@@ -24,7 +24,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           PREFIX_BRANCHES: 'localizer'
-          DEFAULT_BRANCHES: 'master'
+          DEFAULT_BRANCHES: 'develop'
           COMMIT_MESSAGE: 'update localizer'
           TITLE_PR: 'Chore: update file'
           BODY_PR: ''
