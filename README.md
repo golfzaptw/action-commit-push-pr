@@ -22,14 +22,16 @@ example.
 name: Update branches
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 0 * * *' # Daily
+    - cron: '0 0 * * 0' # Weekly
+    - cron: '0 0 1 * *' # Monthly
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       # Do something ex. yarn install and execute get some file.
       - name: Commit push and pr
-        uses: ./
+        uses: golfzaptw/action-commit-push-pr
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           PREFIX_BRANCHES: 'update'
