@@ -1,6 +1,6 @@
 {
   "name": "action-commit-push-pr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.2.0",
-    "@actions/github": "^1.1.0",
+    "@actions/github": "^2.0.0",
     "@zeit/ncc": "^0.20.5",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.6.0",

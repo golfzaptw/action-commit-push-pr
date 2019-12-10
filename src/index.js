@@ -76,7 +76,6 @@ async function gitCommitAndPush() {
   }
 
   const status = await exec(`git status -s`, {async: true})
-  console.log(status.stdout)
   if (status.stdout === '') {
     core.warning(`nothing to commit, working tree clean`)
     process.exit(0)
