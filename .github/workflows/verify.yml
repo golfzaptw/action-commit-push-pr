@@ -1,0 +1,26 @@
+name: Verify action
+
+on:
+  push:
+    branches:
+      - check-action
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Localizer
+        uses: 20Scoops-CNX/action-localizer@master
+        env:
+          LOCALIZER_CREDENTIAL_TOKEN: ${{ secrets.LOCALIZER_CREDENTIAL_TOKEN }}
+          LOCALIZER_REFRESH_TOKEN: ${{ secrets.LOCALIZER_REFRESH_TOKEN }}
+      - name: Start action
+        uses: ./
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          PREFIX_BRANCHES: 'localizer'
+          DEFAULT_BRANCHES: 'master'
+          COMMIT_MESSAGE: 'update localizer'
+          TITLE_PR: 'Chore: update file'
+          BODY_PR: ''

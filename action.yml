@@ -1,0 +1,34 @@
+name: 'Commit Push And PR'
+description:
+  'Automatically commits and push files which have been changed and pull
+  request.'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+inputs:
+  GITHUB_TOKEN:
+    description: 'Personal github token.'
+    required: true
+  PREFIX_BRANCHES:
+    description: 'Prefix branches want need to be created.'
+    required: false
+    default: 'tmp'
+  DEFAULT_BRANCHES:
+    description: 'Branches that want to be open pull request.'
+    required: false
+    default: 'master'
+  COMMIT_MESSAGE:
+    description: 'Commit message.'
+    required: false
+    default: 'chore: update file'
+  TITLE_PR:
+    description: 'Commit message.'
+    required: false
+    default: 'chore: update file'
+  BODY_PR:
+    description: 'Commit message.'
+    required: false
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
