@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
           EVENT_TYPE: APPROVE
           BRANCHES: release/*
-          AUTHOR: dependabot-preview[bot]
+          AUTHOR: 'dependabot-preview[bot], dependabot[bot], golfzaptw'
