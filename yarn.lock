@@ -148,10 +148,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.16.tgz#3ebcbd7bf978fa4c5120fee8be57083271a8b3ac"
   integrity sha512-vRuMyoOr5yfNf8QWxXegOjeyjpWJxFePzHzmBOIzDIzo+rSqF94RW0PkS6y4T2+VjAWLXHWrfbIJY3E3aS7lUw==
 
-"@zeit/ncc@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.21.0.tgz#9516fc44ca81614c5b582d6e88542fdf37c401b6"
-  integrity sha512-RUMdvVK/w78oo+yBjruZltt0kJXYar2un/1bYQ2LuHG7GmFVm+QjxzEmySwREctaJdEnBvlMdUNWd9hXHxEI3g==
+"@zeit/ncc@^0.21.1":
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.21.1.tgz#44fd4359c54ba34a018a5ccf7a315489db20a733"
+  integrity sha512-M9WzgquSOt2nsjRkYM9LRylBLmmlwNCwYbm3Up3PDEshfvdmIfqpFNSK8EJvR18NwZjGHE5z2avlDtYQx2JQnw==
 
 acorn-jsx@^5.1.0:
   version "5.1.0"
@@ -454,10 +454,10 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-import@^2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.0.tgz#d749a7263fb6c29980def8e960d380a6aa6aecaa"
-  integrity sha512-NK42oA0mUc8Ngn4kONOPsPB1XhbUvNHqF+g307dPV28aknPoiNnKLFd9em4nkswwepdF5ouieqv5Th/63U7YJQ==
+eslint-plugin-import@^2.20.1:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.1.tgz#802423196dcb11d9ce8435a5fc02a6d3b46939b3"
+  integrity sha512-qQHgFOTjguR+LnYRoToeZWT62XM55MBVXObHM6SKFd1VzDcX/vqT1kAz8ssqigh5eMj8qXcRoXXGZpPP6RfdCw==
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
