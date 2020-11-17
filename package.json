@@ -1,6 +1,6 @@
 {
   "name": "action-commit-push-pr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -19,17 +19,17 @@
     "prettier:check": "prettier --list-different '**/*.js'"
   },
   "devDependencies": {
-    "@actions/core": "^1.2.0",
-    "@actions/github": "^2.0.0",
-    "@zeit/ncc": "^0.20.5",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.6.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@zeit/ncc": "^0.22.3",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "prettier": "^2.1.2",
     "shelljs.exec": "^1.1.8"
   }
 }
