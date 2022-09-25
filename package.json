@@ -19,7 +19,7 @@
     "prettier:check": "prettier --list-different '**/*.js'"
   },
   "devDependencies": {
-    "@actions/core": "^1.5.0",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.3",
     "@zeit/ncc": "^0.22.3",
     "eslint": "^7.32.0",
@@ -29,7 +29,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
-    "prettier": "^2.3.2",
+    "prettier": "^2.7.1",
     "shelljs.exec": "^1.1.8"
   }
 }
