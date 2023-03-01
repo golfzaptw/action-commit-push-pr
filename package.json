@@ -29,7 +29,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-standard": "^5.0.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.4",
     "shelljs.exec": "^1.1.8"
   }
 }
